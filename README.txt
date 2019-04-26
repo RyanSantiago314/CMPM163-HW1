@@ -9,3 +9,8 @@ The image used is an original piece of mine. Part C uses a
 cellular automata algorithm to form an interesting pattern. 
 Within it I created a predator-prey system each represented by
 red and white cells respectively.
+
+Links:
+https://ryansantiago.itch.io/cmpm163-hw-1-a
+https://ryansantiago.itch.io/cmpm163-hw-1-b
+https://ryansantiago.itch.io/cmpm163-hw-1-c

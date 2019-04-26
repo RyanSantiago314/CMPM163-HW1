@@ -1,0 +1,16 @@
+	I found the blurry trails left by weapon attacks in Devil May Cry 5 to be very interesting 
+and pleasing to the eye. When the player character, in the case of the screenshot, Dante, performs any 
+of his attacks with any of his weapons, the weapons are followed by some kind of mesh that distorts the
+space directly behind the weapon. This is perhaps to simulate the real-life motion blur that occurs when 
+a something moves by very quickly. The moving object moves from one position to the other and appears to 
+distort or blur the things behind it as it moves. This effect serves to illustrate the velocity and force 
+with which Dante is using to swing or command his weapons and give more visual impact and "oomph" to every 
+single one of Dante's weapon attacks.
+	As the effect distorts whatever happens to be behind it, the effect changes depending on the position
+of the camera. Whatever pixels happen to fall within the area affected by the effect in the scene in relation to 
+the position of the camera are stretched and distorted in some way. The effect was perhaps achieved by having some 
+kind of trail mesh connected to each weapon. Based on the animation, the trails begins and ends at two specific points,
+covering a specific area of the screen. The pixels that happen to fall within the trail are then recorded and a shader
+processes each recorded pixel through some kind of algorithm that moves the pixels' colors in certain directions based 
+on camera position and the position of the trails starting and ending points, resulting in the bent, wavy distortion 
+of in-scene objects such as the environment as seen in the screenshot.
