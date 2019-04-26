@@ -77,7 +77,7 @@ Shader "Custom/TwistPhong"
                 float4 xyz = float4(newx, newy, newz, 1.0);
                 
                 o.vertex = UnityObjectToClipPos(xyz);
-                o.normal = v.normal;
+                o.normal = UnityObjectToWorldNormal(v.normal);
                 
                 return o;
             }

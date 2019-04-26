@@ -68,7 +68,7 @@
                 float4 xyz = float4(rotatedVertex, 1.0);
                 
                 o.vertexInWorldCoords = mul(unity_ObjectToWorld, v.vertex); //Vertex position in WORLD coords
-                o.normal = v.normal; //Normal 
+                o.normal = UnityObjectToWorldNormal(v.normal); //Normal 
                 o.vertex = UnityObjectToClipPos(xyz);
                 o.uv = v.uv; 
                 return o;

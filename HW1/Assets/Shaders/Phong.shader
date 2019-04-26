@@ -46,7 +46,7 @@ Shader "Custom/Phong"
            { 
                 v2f o;
                 o.vertexInWorldCoords = mul(unity_ObjectToWorld, v.vertex); //Vertex position in WORLD coords
-                o.normal = v.normal; //Normal 
+                o.normal = UnityObjectToWorldNormal(v.normal); //Normal 
                 o.vertex = UnityObjectToClipPos(v.vertex); 
                 
               
